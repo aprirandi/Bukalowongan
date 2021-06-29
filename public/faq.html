@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/main.js"></script>
   </head>
   <body class="antialiased bg-body text-body font-body">
     <div class=""> 
       <section class="relative bg-gray-50">
         <nav class="relative px-6 py-6 flex justify-between items-center z-10"><a class="text-3xl font-bold leading-none"
-            href="#"><img class="h-12" src="atis-assets/logo/atis/logo.svg" alt="" width="auto" /></a>
+            href="index.html"><img class="h-12" src="atis-assets/logo/atis/logo.svg" alt="" width="auto" /></a>
           <div class="lg:hidden">
             <button class="navbar-burger flex items-center text-gray-400 p-3">
               <svg class="block h-4 w-4 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -108,12 +109,12 @@
       <section>
         <div class="py-20 bg-gray-50 radius-for-skewed">
           <div class="container mx-auto px-4">
-            <div class="mb-16 max-w-xl mx-auto text-center">
+            <div class="mb-16 max-w-xl mx-auto text-center" data-aos="zoom-in" data-aos-duration="2000">
               <span class="text-green-600 font-bold">Dolor sit amet consectutar</span>
               <h2 class="text-5xl font-bold">Frequently Asked Questions</h2>
             </div>
-            <div class="flex flex-wrap -mx-4 -mb-8">
-              <div class="w-full lg:w-1/2 px-4 mb-8">
+            <div class="flex flex-wrap -mx-4 -mb-8" data-aos="zoom-in" data-aos-duration="2000">
+              <div class="w-full lg:w-1/2 px-4 mb-8" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="h-full p-8 bg-white rounded shadow">
                   <div class="mb-6 flex items-start">
                     <span class="mr-4 inline-block p-3 rounded-full bg-green-600">
@@ -206,6 +207,10 @@
         </div>
       </section>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 
